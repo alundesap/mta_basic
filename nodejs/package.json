@@ -1,0 +1,15 @@
+{
+  "dependencies": {},
+  "description": "This is a NodeJS module",
+  "devDependencies": {},
+  "files": [],
+  "main": "server.js",
+  "name": "nodejs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "version": "1.0.0"
+}

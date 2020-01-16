@@ -1,3 +1,12 @@
 _schema-version: "3.2"
 ID: mta_basic
 version: 0.0.1
+
+modules:
+ - name: nodejs
+   type: nodejs
+   path: nodejs
+   provides:
+    - name: nodejs_api
+      properties:
+         url: ${default-url}
